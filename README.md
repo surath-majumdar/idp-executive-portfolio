@@ -3,12 +3,14 @@
 **Domain:** Platform Engineering, Developer Experience (DevEx), Infrastructure Automation, DevSecOps
 
 ## The Operational Reality
+## The Operational Reality
 Consider the friction currently slowing down enterprise software delivery:
 * **The 2:00 AM Triage:** When a Kafka cluster degrades, how do you instantly identify the downstream application owners without parsing through fragmented, static wikis?
 * **The Onboarding Tax:** Why does a new developer spend their first sprint wrestling with complex secrets management and AWS IAM roles instead of writing business logic?
 * **The Delivery Bottleneck:** How much engineering velocity is lost to persistent ticket queues and manual security reviews for routine infrastructure provisioning?
+* **The SRE Toil Tax:** Why are highly-skilled Platform and SRE teams burning cycles on repetitive Jira tickets for basic Kafka topic creation and offset resets, rather than empowering developers with automated, self-service workflows?
 
-The reality of the "you build it, you run it" DevOps philosophy often forces application developers to become part-time infrastructure experts, resulting in severe operational bottlenecks. 
+The reality of the "you build it, you run it" DevOps philosophy often forces application developers to become part-time infrastructure experts, resulting in severe operational bottlenecks.
 
 ## The Strategic Solution
 DevHub is an Internal Developer Platform (IDP) designed to proactively eliminate this cognitive load. By combining automated scaffolding, a live service catalog, and a "security by default" architecture, this platform empowers developers to focus 100% on writing code from Day 1 while ensuring infrastructure standards are enforced automatically.
