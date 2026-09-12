@@ -3,7 +3,6 @@
 **Domain:** Platform Engineering, Developer Experience (DevEx), Infrastructure Automation, DevSecOps
 
 ## The Operational Reality
-## The Operational Reality
 Consider the friction currently slowing down enterprise software delivery:
 * **The 2:00 AM Triage:** When a Kafka cluster degrades, how do you instantly identify the downstream application owners without parsing through fragmented, static wikis?
 * **The Onboarding Tax:** Why does a new developer spend their first sprint wrestling with complex secrets management and AWS IAM roles instead of writing business logic?
@@ -30,11 +29,16 @@ DevHub is an Internal Developer Platform (IDP) designed to proactively eliminate
 * **Automated Credentialing:** Wired directly into AWS Secrets Manager, this entirely automates certificate and credential rotation, eliminating the need for manual security reviews for hardcoded passwords.
 
 ## Projected Business Impact
-Based on architectural modeling and early PoC validation, this platform is designed to deliver:
-* **Faster Onboarding:** Expected reduction in onboarding time from 3 days to 30 minutes.
-* **Operational Efficiency:** Anticipated elimination of up to 80% of IAM-related support tickets.
-* **Frictionless Delivery:** Projected 60% decrease in first-sprint friction by abstracting Kubernetes and Terraform complexities
-* **Automated Security:** Expected 100% reduction in manual security reviews for new services due to OPA-driven governance.
+The IDP is designed to deliver measurable improvements across onboarding, security, and developer productivity once fully implemented. The following outcomes represent projected gains based on architectural modeling and early validation in the PoC environment:
+
+* **Faster Onboarding:** Expected reduction in onboarding time from 3 days to 30 minutes through automated scaffolding and pre-configured IaC repositories.
+* **Operational Efficiency:** Anticipated elimination of up to 80% of IAM-related support tickets by centralizing identity and secrets management through AWS Secrets Manager.
+* **Frictionless Delivery:** Projected 60% decrease in first-sprint friction by removing the need for developers to learn Terraform, IAM, or Kubernetes before writing business logic.
+* **Automated Security:** Expected 100% reduction in manual security reviews for new services due to baked-in zero-copy secrets and OPA-driven governance.
+* **Accelerated Discovery:** Forecasted 70% acceleration in service discovery through live service catalogs and AsyncAPI-driven event stream documentation.
+* **Pipeline Reliability:** Estimated 40% improvement in CI/CD reliability by enforcing standardized pipelines and Golden Path templates.
+
+These expected outcomes illustrate the potential impact of the IDP architecture — transforming developer onboarding, security, and delivery velocity into a unified, self-service experience. These outcomes demonstrate that the IDP is not just a developer tool—it is a force multiplier for engineering velocity and operational consistency.
 
 ## Enterprise Scalability & Platform Maturity 
 As the Internal Developer Platform (IDP) evolves beyond its initial MVP, the next phase focuses on scaling Developer Experience (DevEx) across teams, enforcing platform-wide consistency, and maturing the Golden Path into a repeatable enterprise capability. This outlines the transition from a single-team prototype into a multi-tenant, production-grade platform.
@@ -46,7 +50,8 @@ As the Internal Developer Platform (IDP) evolves beyond its initial MVP, the nex
 * **Policy Bundles for IDP Components:** Extend governance by bundling OPA policies for common IDP components—service templates, Terraform modules, Kubernetes manifests, and AsyncAPI contracts. This ensures every scaffolded project is compliant from the first commit.
 * **Developer Portal Governance:** Establish governance rules within DevHub (Backstage) to ensure service metadata, ownership, documentation, and scorecards remain accurate. This transforms the portal into a reliable system of record for the entire engineering organization.
 
-* **Strategic Outcome:** These scalability foundations position the IDP as a long-term enterprise capability—repeatable, auditable, secure, and optimized for developer productivity at scale.
+**Strategic Outcome:** These scalability foundations position the IDP as a long-term enterprise capability—repeatable, auditable, secure, and optimized for developer productivity at scale.
+
 ---
 
 ## Execution Roadmap
