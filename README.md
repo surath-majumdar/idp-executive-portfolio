@@ -46,7 +46,7 @@ As the Internal Developer Platform (IDP) evolves beyond its initial MVP, the nex
 * **Policy Bundles for IDP Components:** Extend governance by bundling OPA policies for common IDP components—service templates, Terraform modules, Kubernetes manifests, and AsyncAPI contracts. This ensures every scaffolded project is compliant from the first commit.
 * **Developer Portal Governance:** Establish governance rules within DevHub (Backstage) to ensure service metadata, ownership, documentation, and scorecards remain accurate. This transforms the portal into a reliable system of record for the entire engineering organization.
 
-**Strategic Outcome:** These scalability foundations position the IDP as a long-term enterprise capability—repeatable, auditable, secure, and optimized for developer productivity at scale.
+* **Strategic Outcome:** These scalability foundations position the IDP as a long-term enterprise capability—repeatable, auditable, secure, and optimized for developer productivity at scale.
 ---
 
 ## Execution Roadmap
