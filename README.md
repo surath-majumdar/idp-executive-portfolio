@@ -36,6 +36,17 @@ Based on architectural modeling and early PoC validation, this platform is desig
 * **Frictionless Delivery:** Projected 60% decrease in first-sprint friction by abstracting Kubernetes and Terraform complexities
 * **Automated Security:** Expected 100% reduction in manual security reviews for new services due to OPA-driven governance.
 
+## Enterprise Scalability & Platform Maturity 
+As the Internal Developer Platform (IDP) evolves beyond its initial MVP, the next phase focuses on scaling Developer Experience (DevEx) across teams, enforcing platform-wide consistency, and maturing the Golden Path into a repeatable enterprise capability. This outlines the transition from a single-team prototype into a multi-tenant, production-grade platform.
+
+* **Multi-Team Onboarding Workflows:** Introduce standardized onboarding flows where new teams adopt the Golden Path through guided templates, automated scaffolding, and pre-configured IaC repositories. This ensures every team begins with the same secure, compliant foundation.
+* **Golden Path Versioning Strategy:** Implement versioned Golden Path templates so platform teams can evolve best practices without disrupting existing applications. Developers can upgrade to newer versions at their own pace, ensuring stability while enabling continuous improvement.
+* **Platform Maturity Model:** Define a maturity model that progresses from manual onboarding → automated scaffolding → self-service workflows → fully declarative delivery. This model helps leadership track adoption, identify gaps, and prioritize platform investments.
+* **Standardization Across Microservices:** Enforce consistent patterns for logging, metrics, secrets, CI/CD, and deployment across all services. Standardization reduces cognitive load, accelerates onboarding, and ensures predictable operational behavior across environments.
+* **Policy Bundles for IDP Components:** Extend governance by bundling OPA policies for common IDP components—service templates, Terraform modules, Kubernetes manifests, and AsyncAPI contracts. This ensures every scaffolded project is compliant from the first commit.
+* **Developer Portal Governance:** Establish governance rules within DevHub (Backstage) to ensure service metadata, ownership, documentation, and scorecards remain accurate. This transforms the portal into a reliable system of record for the entire engineering organization.
+
+**Strategic Outcome:** These scalability foundations position the IDP as a long-term enterprise capability—repeatable, auditable, secure, and optimized for developer productivity at scale.
 ---
 
 ## Execution Roadmap
