@@ -14,6 +14,8 @@ The reality of the "you build it, you run it" DevOps philosophy often forces app
 ## The Strategic Solution
 DevHub is an Internal Developer Platform (IDP) designed to proactively eliminate this cognitive load. By combining automated scaffolding, a live service catalog, and a "security by default" architecture, this platform empowers developers to focus 100% on writing code from Day 1 while ensuring infrastructure standards are enforced automatically.
 
+![DevHub IDP Golden Path Architecture](./assets/idp-golden-path-architecture.png)
+
 ### Core Platform Capabilities
 
 **1. The Secure "Golden Path" & Automated Scaffolding**
