@@ -57,6 +57,8 @@ As the Internal Developer Platform (IDP) evolves beyond its initial MVP, the nex
 
 **Strategic Outcome:** These scalability foundations position the IDP as a long-term enterprise capability—repeatable, auditable, secure, and optimized for developer productivity at scale.
 
+![DevHub IDP Mockup](./assets/idp_mockup.png)
+
 ---
 
 ## Execution Roadmap
